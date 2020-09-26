@@ -53,16 +53,20 @@ section h1 {
 
 section#Home{
     background: url('/assets/background/home-background.jpg');
+    background-size: cover;
 }
 
 section#Services{
     background: url('/assets/background/services-background.jpg');
+    background-size: cover;
 }
 
 section#About{
     background: url('/assets/background/about-background.jpg');
+    background-size: cover;
 }
 
 section#Contact{
     background: url('/assets/background/contact-background.jpg');
+    background-size: cover;
 }

@@ -1,3 +1,7 @@
+.main-container {
+width: 100vw;
+}
+
 .navbar {
     position: fixed;
     top: 0;
@@ -38,4 +42,24 @@ section {
     text-align: center;
     width: 100%;
     height: 100vh;
+}
+
+section h1 {
+    font-size: 4rem;
+}
+
+section#Home{
+    background: url('/assets/background/home-background.jpg');
+}
+
+section#Services{
+    background: url('/assets/background/services-background.jpg');
+}
+
+section#About{
+    background: url('/assets/background/about-background.jpg');
+}
+
+section#Contact{
+    background: url('/assets/background/contact-background.jpg');
 }

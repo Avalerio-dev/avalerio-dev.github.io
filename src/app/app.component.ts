@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   //title = 'website';
   scrollToElement($element): void {
-    console.log($element);
     $element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   }
 }

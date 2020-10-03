@@ -72,3 +72,8 @@ section h1 {
     background-image: url(https://tonieurg.sirv.com/Images/contact-background.jpg);
     background-size: cover;
 }
+
+.home-container{
+    display: flex;
+    flex-direction: row;
+}

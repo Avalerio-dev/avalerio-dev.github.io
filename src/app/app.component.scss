@@ -17,11 +17,12 @@ height: 100vh;
     list-style: none;
     width: 100%;
     justify-content: center;
+    align-items: center;
 }
 
 .navbar ul li {
     margin: 0 1rem;
-    padding: 1rem;
+    font-size: 1rem;
 }
 
 .navbar ul li a {

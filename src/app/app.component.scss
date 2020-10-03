@@ -58,6 +58,13 @@ section h1 {
     background-size: cover;
 }
 
+.home-title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 1.6;
+    font-size: 7vw;
+}
+
 .services{
     background-image: url(https://tonieurg.sirv.com/Images/services-background.jpg);
     background-size: cover;
@@ -75,5 +82,32 @@ section h1 {
 
 .home-container{
     display: flex;
-    flex-direction: row;
 }
+
+.image-me{
+    border: solid 8px;
+    border-radius: 50%;
+    border-color: purple;
+    background: rgb(220,220,220,0.4);
+    width: 18vw;
+    height: auto;
+}
+
+
+/// MOBILE ///
+
+
+@media only screen and (max-width: 768px) {
+    .image-me{
+        border: solid 8px;
+        border-radius: 50%;
+        border-color: purple;
+        background: rgb(220,220,220,0.4);
+        width: 48vw;
+        height: auto;
+    }
+
+    .home-title{
+        font-size: 12vw;
+    }
+  }

@@ -109,28 +109,41 @@ section h1 {
 }
 
 .contact-window-container {
-    border: 3px solid #f1f1f1;
+    border: 3px solid rgb(35, 36, 39);
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
 
 .window-toolbar {
     padding: 10px;
-    background: #f1f1f1;
+    background: rgb(58,58,60);
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+    display: flex;
 }
 
 .dot {
     margin-top: 4px;
     height: 12px;
     width: 12px;
-    background-color: #bbb;
+    margin-right: 6px;
     border-radius: 50%;
     display: inline-block;
 }
 
+.contact-window-content{
+    width: 50vw;
+    height: 50vh;
+    background: rgb(31,32,35);
+}
 
+.contact-window-content p{
+    color: rgb(142, 142, 147);
+}
+
+.window-toolbar-title{
+    color: rgb(142, 142, 147);
+}
 /// MOBILE ///
 
 
